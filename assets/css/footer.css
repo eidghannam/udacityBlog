@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  margin-bottom: 24px;
+  margin-top: 16px;
+  font-weight: 600;
+  color: var(--h4-color);
+}
+
+.contact-icons .fa {
+  color: #f44336;
+  margin: 4px 16px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
+.footer .fa-heart-o {
+  color: #f44336;
+}

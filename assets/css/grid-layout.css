@@ -1,0 +1,27 @@
+.blog-list {
+  width: 90%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 32px;
+  margin: 0 auto;
+  padding: 32px 16px;
+  align-items: start;
+  justify-content: center;
+}
+
+.blog-list .section-title {
+  grid-area: 1 / 1 / 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.blog-list .section-title h3 {
+  font-size: 32px;
+  color: var(--h3-color);
+  text-align: center;
+  padding: 16px 0;
+  border-bottom: 3px solid var(--stroke);
+}
